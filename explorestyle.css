@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.left{
+    color: rgb(243, 243, 243);
+}
+body{
+    background-image: url("images/bg-intro-desktop.png");
+    background-color: hsl(0, 98%, 60%) ;
+    width: 100%;
+    height: 100vh;
+}
+.login-page{  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    z-index: 19;
+}
+.free{
+    display: flex;
+    background-color: hsl(248, 32%, 49%);
+    text-align: center;
+    width: 470px;
+    height: 40px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.ourmarginbotton{
+    margin-bottom: 10px;
+}
+.input-area{
+    background-color: white;
+    padding: 10px ;
+    width: 450px;
+    height:450px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 10px 30px rgb(121, 34, 34);
+}
+.buttonfree{
+    background-color: hsl(27, 100%, 73%);
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    user-select: none;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    color: inherit;
+    border: none;
+}
+
+.clickterm{
+    opacity: 0.9;
+    font-weight: 400;
+    font-size: 10px;
+}
+.widthofInput{
+    width: 400px;
+    height: 40px;
+    margin: 13px 0;
+    padding-left: 10px;
+}
+.buttonfree:hover{
+    transition: 0.5s all ease;
+    transform: scale(1.05);
+}
+.TAC{
+    color: red;
+}
